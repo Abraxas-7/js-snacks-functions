@@ -18,5 +18,5 @@ function checkFirstLetter(arr, letter) {
 const userLetter = prompt("Inserisci l'iniziale dei nomi");
 const result = checkFirstLetter(names, userLetter);
 
-console.log(result.length > 0  ? result : "Nessuna parola trovata con quel iniziale")
+console.log(result.length > 0  ? result : "Nessuna parola trovata con quel iniziale");
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
